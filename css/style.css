@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-family: 'Outfit', sans-serif;
     font-size: 1.1em;
     font-weight: 600;
+    /* padding: 20px; */
 }
 #headers div img {
     max-width: 75px;
