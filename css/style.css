@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+    padding: 0;
+    margin: 0;
+}
+#headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+#headers div img {
+    max-width: 75px;
+}
+#headers ul {
+    display: flex;
+}
+#headers ul li {
+    margin: 0 15px;
+    list-style-type: none;
+}
+#headers ul li a {
+    color: #555;
+    text-decoration: none;
+}
