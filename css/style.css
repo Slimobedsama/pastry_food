@@ -110,3 +110,10 @@ a {
     height: 400px;
     object-fit: cover;
 }
+.shop a {
+    display: block;
+    text-align: center;
+    color: #ff6a00;
+    font-weight: 800;
+    padding: 10px 0;
+}
