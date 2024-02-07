@@ -56,8 +56,10 @@ a {
 }
 .hero h1 {
     top: 30%;
-    left: 25%;
+    left: 22%;
     font-size: 3em;
+    letter-spacing: .1em;
+    word-spacing: .2em;
 }
 .hero h1 span {
     display: block;
@@ -119,4 +121,16 @@ a {
     color: #ff6a00;
     font-weight: 800;
     padding: 10px 0;
+}
+.items {
+    position: relative;
+}
+.items span {
+    display: none;
+}
+.items a:hover span {
+    display: inline;
+    position: absolute;
+    top: 77.5%;
+    left: 63%;
 }
