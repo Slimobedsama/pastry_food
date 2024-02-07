@@ -4,7 +4,7 @@
 body {
     font-family: 'Outfit', sans-serif;
 }
-h1, h2, h3, h4, h5, h6, p, ul {
+body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
     margin: 0;
 }
@@ -49,19 +49,22 @@ a {
 .hero {
     position: relative;
     text-align: center;
-    color: #fff;
+    color: #ff6a00;
 }
 .hero h1, .hero a, .dis-none {
     position: absolute;
 }
 .hero h1 {
-    top: 20%;
-    left: 20%;
+    top: 30%;
+    left: 25%;
     font-size: 3em;
 }
+.hero h1 span {
+    display: block;
+}
 .hero a {
-    top: 40%;
-    left: 50%;
+    top: 60%;
+    left: 45%;
     padding: 20px 28px;
     border-radius: 5px;
     background-color: #ff6a00;
